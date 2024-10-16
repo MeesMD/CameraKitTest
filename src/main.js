@@ -14,7 +14,7 @@ import {
 
 	const { lenses } = await cameraKit.lensRepository.loadLensGroups(['5efcc387-2d93-4538-af28-abbf86265c97'])
 
-	session.applyLens(lenses[0])
+	session.applyLens(lenses[1])
 
 	let mediaStream = await navigator.mediaDevices.getUserMedia({ video:
 		{ facingMode: 'environment' } 
